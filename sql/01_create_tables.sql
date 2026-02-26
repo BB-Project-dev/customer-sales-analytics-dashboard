@@ -7,7 +7,7 @@ CREATE TABLE sales (
     discount REAL,
     quantity INTEGER,
     payment_method TEXT,
-    order_date TEXT,         -- SQLite는 DATE 타입 없음, TEXT로 저장
+    order_date TEXT,         
     delivery_time_days INTEGER,
     region TEXT,
     returned INTEGER,       -- 0 = FALSE, 1 = TRUE
@@ -17,3 +17,4 @@ CREATE TABLE sales (
     customer_age INTEGER,
     customer_gender TEXT
 );
+
