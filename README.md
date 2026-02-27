@@ -118,7 +118,6 @@ Return Rate by Category
 Revenue by Region (Map)
 
 📦 Category Insights
-
 🟢 Electronics
 
 Highest revenue
