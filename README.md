@@ -1,170 +1,168 @@
-🚀 Customer Sales Analytics Dashboard
-
-SQL + Power BI + AI-Assisted Analytics Project
+# 🚀 Customer Sales Analytics Dashboard  
+**SQL + Power BI + AI-Assisted Analytics Project**
 
 End-to-end data analytics project transforming raw transactional sales data into structured KPIs and interactive business insights.
 
 This project demonstrates SQL data modeling, profitability analysis, customer segmentation, and Power BI dashboard design supported by AI-assisted analytical refinement.
 
-📌 Project Objective
+---
+
+## 📌 Project Objective
 
 The goal of this project is to analyze:
 
-Customer profitability patterns
+- Customer profitability patterns  
+- Revenue vs Profit relationships  
+- Return rate impact on margins  
+- Category-level performance  
+- Regional revenue distribution  
 
-Revenue vs Profit relationships
+---
 
-Return rate impact on margins
+## 🛠 Tech Stack
 
-Category-level performance
+- **SQL (SQLite)** — Data modeling & KPI View creation  
+- **Power BI** — Dashboard & visualization design  
+- **AI Tools** — SQL refinement, KPI structuring, analytical validation  
+- **Data Modeling Concepts** — Aggregation, segmentation, financial metrics  
 
-Regional revenue distribution
+---
 
-The analysis focuses on identifying high-value segments and operational improvement opportunities.
+# 📊 Dashboard Overview
 
-🛠 Tech Stack
+---
 
-SQL (SQLite) — Data modeling & KPI View creation
+## 1️⃣ Executive Overview
 
-Power BI — Dashboard & visualization design
+### Visuals
 
-AI Tools — SQL refinement, KPI structuring, analytical validation
+- Total Revenue  
+- Total Profit  
+- Profit Margin  
+- Return Rate  
+- Monthly Revenue vs Profit Trend
+- Revenue and Profit by Category  
 
-Data Modeling Concepts — Aggregation, segmentation, financial metrics
+![Executive Overview](images/page1_overview.PNG)
 
-📊 Dashboard Overview
-1️⃣ Executive Overview
-Visuals
+### 📈 Key Insights
 
-Total Revenue
+- Revenue and profit move consistently with overall performance fluctuations.  
+- Revenue growth alone does not guarantee profitability; return rates and margin structure significantly impact net profit.  
+- Category-level analysis reveals large revenue gaps.  
+- Profit generally shows a positive correlation with revenue; however, **Electronics generates disproportionately high revenue relative to profit**, indicating margin sensitivity.
 
-Total Profit
+---
 
-Profit Margin
+## 2️⃣ Customer Segmentation Analysis
 
-Return Rate
+### Visuals
 
-Monthly Revenue vs Profit Trend
+- **Profit by Age Group & Gender** (Bar chart)  
+- **Gender Distribution**  
+- **Revenue vs Profit Scatter**  
+- **Multi-metric Matrix** (Revenue, Profit, Average Order Value)
 
-📈 Key Insights
+![Customer Insights](images/page2_customer.PNG)
 
-Revenue and profit move consistently with overall performance fluctuations.
+---
 
-Revenue growth alone does not guarantee profitability; return rates and margin structure significantly impact net profit.
+### 🎯 Major Findings
 
-Category-level analysis reveals large revenue gaps.
+#### 🔹 Most Profitable Age Group: 56+
 
-Profit generally shows a positive correlation with revenue; however, Electronics generates disproportionately high revenue relative to profit, indicating margin sensitivity.
-
-2️⃣ Customer Segmentation Analysis
-Visuals
-
-Profit by Age Group & Gender (Bar chart)
-
-Gender Distribution
-
-Revenue vs Profit Scatter
-
-Multi-metric Matrix (Revenue, Profit, Average Order Value)
-
-🎯 Major Findings
-🔹 Most Profitable Age Group: 56+
-
-Highest total revenue
-
-Highest total profit
-
-Strongest revenue-to-profit alignment
+- Highest total revenue  
+- Highest total profit  
+- Strongest revenue-to-profit alignment  
 
 This segment demonstrates the strongest overall contribution to business performance.
 
-🔹 Gender Distribution
+---
 
-Female: 48.2%
+#### 🔹 Gender Distribution
 
-Male: 47.06%
+- **Female: 48.2%**  
+- **Male: 47.06%**
 
 Customer distribution is nearly balanced, suggesting that profitability differences are driven more by age segmentation than gender.
 
-🔹 Revenue vs Profit Relationship by Age
+---
 
-18–25 group shows the weakest revenue-to-profit relationship.
+#### 🔹 Revenue vs Profit Relationship by Age
 
-56+ group shows the strongest positive correlation.
-
-Other age groups follow a moderate upward trend.
+- **18–25 group** shows the weakest revenue-to-profit relationship.  
+- **56+ group** shows the strongest positive correlation.  
+- Other age groups follow a moderate upward trend.
 
 Overall, revenue and profit demonstrate a generally positive upward relationship across age segments.
 
-🔹 Notable Observation (Multi-Metric View)
+---
+
+#### 🔹 Notable Observation (Multi-Metric View)
 
 The 56+ segment:
 
-Has the highest revenue
-
-Has the highest total profit
-
-Has the lowest Average Order Value
+- Has the highest revenue  
+- Has the highest total profit  
+- **Has the lowest Average Order Value**
 
 This suggests frequent purchasing behavior with smaller basket sizes — indicating strong long-term customer value potential.
 
-3️⃣ Category & Regional Performance
-Visuals
+---
 
-Revenue vs Profit Scatter (Category)
+## 3️⃣ Category & Regional Performance
 
-Return Rate by Category
+### Visuals
 
-Revenue by Region (Map)
+- **Revenue vs Profit Scatter (Category)**  
+- **Return Rate by Category**  
+- **Revenue by Region (Map)**  
 
-📦 Category Insights
-🟢 Electronics
+![Category & Region](images/page3_category.PNG)
 
-Highest revenue
+---
 
-Highest profit
+### 📦 Category Insights
 
-Core revenue driver of the business
+#### 🟢 Electronics
+- Highest revenue  
+- Highest profit  
+- Core revenue driver of the business  
+- Strong revenue–profit alignment  
 
-Strong revenue–profit alignment
+#### 🔵 Grocery
+- Lowest revenue  
+- Lowest profit  
+- Likely low-margin, high-frequency category  
 
-🔵 Grocery
+#### 🔴 Fashion
+- Highest return rate  
+- Margin leakage risk  
+- Operational improvement opportunity  
 
-Lowest revenue
+---
 
-Lowest profit
+### 🌎 Regional Insights
 
-Likely low-margin, high-frequency category
+- **Central region records the lowest revenue contribution.**  
+- Indicates potential under-penetration or demand limitation.  
+- Suggests opportunity for strategic expansion or marketing optimization.
 
-🔴 Fashion
+---
 
-Highest return rate
+# 📊 Strategic Takeaways
 
-Margin leakage risk
+1. Profitability is driven more by age segmentation than gender distribution.  
+2. The 56+ segment is the most valuable customer group.  
+3. High return rate categories (e.g., Fashion) reduce overall margin efficiency.  
+4. Electronics dominates revenue but may face margin sensitivity risk.  
+5. Regional imbalance indicates growth opportunity in Central region.
 
-Operational improvement opportunity
+---
 
-🌎 Regional Insights
+# 📁 Project Structure
 
-Central region records the lowest revenue contribution.
-
-Indicates potential under-penetration or demand limitation.
-
-Suggests opportunity for strategic expansion or marketing optimization.
-
-📊 Strategic Takeaways
-
-Profitability is driven more by age segmentation than gender distribution.
-
-The 56+ segment is the most valuable customer group.
-
-High return rate categories (e.g., Fashion) reduce overall margin efficiency.
-
-Electronics dominates revenue but may face margin sensitivity risk.
-
-Regional imbalance indicates growth opportunity in Central region.
-
-📁 Project Structure
+```plaintext
 customer-sales-analytics-dashboard/
 │
 ├── sql/
@@ -181,33 +179,29 @@ customer-sales-analytics-dashboard/
 │   └── page3_category.png
 │
 └── README.md
+```
 
-🧠 Analytical Skills Demonstrated
+---
 
-KPI Design & Financial Metric Engineering
+# 🧠 Analytical Skills Demonstrated
 
-Customer Segmentation Modeling
+- KPI Design & Financial Metric Engineering  
+- Customer Segmentation Modeling  
+- Revenue–Profit Correlation Analysis  
+- Return Rate Impact Assessment  
+- Multi-Dimensional Aggregation (Age × Gender × Category × Region)  
+- Data Visualization & Dashboard UX Structuring  
+- AI-assisted analytical refinement  
 
-Revenue–Profit Correlation Analysis
+---
 
-Return Rate Impact Assessment
-
-Multi-Dimensional Aggregation (Age × Gender × Category × Region)
-
-Data Visualization & Dashboard UX Structuring
-
-AI-assisted analytical refinement
-
-💼 Portfolio Positioning
+# 💼 Portfolio Positioning
 
 This project simulates a real-world business analytics scenario where:
 
-Raw transactional data is structured using SQL
-
-KPIs are modeled and validated
-
-Insights are visualized through Power BI
-
-Business recommendations are derived from data
+- Raw transactional data is structured using SQL  
+- KPIs are modeled and validated  
+- Insights are visualized through Power BI  
+- Business recommendations are derived from data  
 
 It demonstrates both technical execution and strategic analytical thinking.
