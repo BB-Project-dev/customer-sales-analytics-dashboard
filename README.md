@@ -71,8 +71,8 @@ To analyze customer purchasing behavior, profitability drivers, and product/cate
 
 ### 🔹 Gender Distribution
 
-- Male: **48.17%**
-- Female: **47.11%**
+- Male: **47.06%**
+- Female: **48.20%**
 - Nearly balanced distribution → revenue differences driven more by age than gender.
 
 ### 🔹 Revenue vs Profit Correlation
