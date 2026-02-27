@@ -205,3 +205,7 @@ This project simulates a real-world business analytics scenario where:
 - Business recommendations are derived from data  
 
 It demonstrates both technical execution and strategic analytical thinking.
+
+## Data Notice
+This repository uses sample data for demonstration purposes only.
+No real customer information is included.
